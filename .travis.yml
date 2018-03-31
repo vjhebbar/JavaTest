@@ -1,1 +1,10 @@
 language: java
+
+addons:
+    sonarcloud:
+        organization: "abcdabcd"
+        token: SONAR_TOKEN
+
+script:
+    ant build
+    sonar-scanner
