@@ -6,4 +6,5 @@ addons:
         token: SONAR_TOKEN
 
 script:
-    ant compile
+    - ant compile
+    - sonar-scanner
