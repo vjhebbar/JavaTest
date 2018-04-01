@@ -1,11 +1,11 @@
 language: java
 
 addons:
-    # sonarcloud:
+    sonarcloud:
         # organization: "abcdabcd"
         # token: $SONAR_TOKEN
-        # branch: "master"
+        branch: "master"
 
 script:
     - ant compile
-    - sonar-scanner -X -Dsonar.login=$SONAR_TOKEN
+    - sonar-scanner -X 
