@@ -9,7 +9,7 @@ public class Hello {
 		return "Hello " + str;
 	}
 	
-	public static void buggy(){
+	public static Integer buggy(){
 		return 1/0;
 	}
 	
