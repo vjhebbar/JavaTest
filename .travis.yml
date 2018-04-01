@@ -7,5 +7,8 @@ addons:
 
 script:
     - ant compile
-    - sonar-scanner
+    - sonar-scanner -X
+    
+    
+    
     - java /bin/HelloWorld
