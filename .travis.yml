@@ -4,6 +4,7 @@ addons:
     sonarcloud:
         organization: "abcdabcd"
         token: $SONAR_TOKEN
+        branch: "master"
 
 script:
     - ant compile
