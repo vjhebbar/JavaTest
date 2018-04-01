@@ -1,10 +1,10 @@
 language: java
 
 addons:
-    sonarqube:
-        organization: "abcdabcd"
-        token: $SONAR_TOKEN
-        branch: "master"
+    # sonarcloud:
+        # organization: "abcdabcd"
+        # token: $SONAR_TOKEN
+        # branch: "master"
 
 script:
     - ant compile
