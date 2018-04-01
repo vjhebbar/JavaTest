@@ -4,6 +4,7 @@ addons:
     sonarcloud:
        # organization: "abcdabcd"
         branch: "master"
+        host: http://178.62.73.52:9000
 
 script:
     - ant compile
