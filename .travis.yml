@@ -2,10 +2,11 @@ language: java
 
 addons:
     sonarcloud:
-        # organization: "abcdabcd"
-        # token: $SONAR_TOKEN
+        organization: "abcdabcd"
+        token: 
+            secure: $SONAR_TOKEN
         branch: "master"
 
 script:
     - ant compile
-    - sonar-scanner -X -Dsonar.login=admin -Dsonar.password=admin
+    - sonar-scanner -X
