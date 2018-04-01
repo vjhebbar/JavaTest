@@ -9,4 +9,8 @@ public class Hello {
 		return "Hello " + str;
 	}
 	
+	public static void buggy(){
+		return 1/0;
+	}
+	
 }
