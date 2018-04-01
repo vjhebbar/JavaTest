@@ -2,9 +2,7 @@ language: java
 
 addons:
     sonarcloud:
-        organization: "abcdabcd"
-        token: 
-            secure: $SONAR_TOKEN
+       # organization: "abcdabcd"
         branch: "master"
 
 script:
