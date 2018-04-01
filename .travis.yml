@@ -8,4 +8,4 @@ addons:
 
 script:
     - ant compile
-    - sonar-scanner -X
+    - sonar-scanner -X -Dsonar.login=$SONAR_TOKEN
