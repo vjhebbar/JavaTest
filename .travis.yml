@@ -2,10 +2,12 @@ language: java
 
 addons:
     sonarcloud:
-       # organization: "abcdabcd"
+        organization: "abcdabcd"
+        token: 
+            secure: $SONAR_TOKEN
         branch: "master"
-        host: http://178.62.73.52:9000
 
 script:
     - ant compile
     - sonar-scanner -X
+    
